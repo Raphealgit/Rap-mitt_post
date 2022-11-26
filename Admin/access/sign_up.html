@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+        <!--=========== CUSTOM STYLESHEET ===========-->
+        <link rel="stylesheet" href="./style.css">
+
+        <!--=========== ICON_SCOUT CND ===========-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+        <!--=========== GOOGLE_FONT MONTSERRAT  ===========-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family-Montserrat:wght@300;400;500;600;700;800;900&display=swap">    
+    
+</head>
+<body>
+    
+    <section class="form_section">
+
+        <div class="container form_section-contact">
+
+            <h2>
+                Sign Up
+            </h2>
+
+            <div class="alert_massage success">
+
+                <p>
+                    This is an error massage
+                </p>
+
+            </div>
+
+            <form action="" enctype="multipart/form-data">
+
+                <input type="text" placeholder="First Name" min="4" max="10" required>
+                <input type="text" placeholder="Last Name" min="4" max="10"  required>
+
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+
+                <input type="password" placeholder="Create Password" min="8" max="18" required >
+                <input type="password" placeholder="Confirm Password" min="8" max="18" required>
+
+                <div class="form_control">
+
+                    <label for="avatar">
+                        User Avatar
+                    </label>
+
+                    <input type="file" id="avatar" >
+                </div>      
+                
+                <button type="submit" class="btn">
+                    Sign Up
+                </button>
+
+                <small>
+                    Already have an account? <a href="./sign_in.html">Sign In</a>
+                </small>
+
+            </form>
+        </div>
+
+    </section>
+
+
+</body>
+</html>
